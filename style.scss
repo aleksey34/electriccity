@@ -1,0 +1,30 @@
+/*
+Theme Name: Electriccity  child theme OceanWP
+Template: oceanwp
+Description: Дочерняя тема для темы OceanWP  site Electriccity
+Author: Aleksey34
+Skype: aleksey34
+email: aleksey3400@yandex.ru
+Version: 1.0
+*/
+
+/* импортируем стили родительской темы */
+/*@import url("../oceanwp/style.css");*/
+
+/* Свои дополнительные стили */
+/*.foo{ color:red; }*/
+/**{color: red !important;}*/
+
+@import "scss/variables"; // ? need or not?
+//@import "scss/short-code";
+
+//@import "scss/top-nav-panel";
+//@import "scss/testimonials-elementor-carousel";
+//@import "scss/footer";
+//@import "scss/el-table-sections" ;
+@import "scss/contact-form-page"; // need or not??
+
+// need only
+@import "scss/checkout";
+@import "scss/top-menu";
+@import "scss/top-header-panel";

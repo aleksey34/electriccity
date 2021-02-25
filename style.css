@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/*
+Theme Name: Electriccity  child theme OceanWP
+Template: oceanwp
+Description: Дочерняя тема для темы OceanWP  site Electriccity
+Author: Aleksey34
+Skype: aleksey34
+email: aleksey3400@yandex.ru
+Version: 1.0
+*/
+/* импортируем стили родительской темы */
+/*@import url("../oceanwp/style.css");*/
+/* Свои дополнительные стили */
+/*.foo{ color:red; }*/
+/**{color: red !important;}*/
+#formNameField, #formTelField {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-radius: 0; }
+
+#formSubmitBtn {
+  border-radius: 10px;
+  background-color: #fff;
+  transition: all 0.5s;
+  border: 1px solid #329AF2;
+  color: #000; }
+  #formSubmitBtn:hover {
+    background-color: #74C0FC; }
+
+#formAgreeField, #formAgreeField + span {
+  margin: 15px 0; }
+
+.woocommerce-checkout #billing_first_name_field {
+  width: 100%; }
+.woocommerce-checkout #billing_country_field strong:after {
+  content: "Москва и МО.";
+  padding-left: 5px;
+  display: inline-block; }
+
+#site-logo {
+  position: absolute;
+  left: -300rem;
+  background-color: transparent; }
+  #site-logo #site-logo-inner a {
+    font-size: 2px;
+    color: transparent; }
+
+.topbar-content .oceanwp-logout, .topbar-content .oceanwp-logoin {
+  display: inline-block;
+  padding-left: 10px;
+  transition: all 0.5s; }
+  .topbar-content .oceanwp-logout:hover, .topbar-content .oceanwp-logoin:hover {
+    color: #000 !important; }
+
+/*# sourceMappingURL=style.css.map */

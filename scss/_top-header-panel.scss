@@ -1,0 +1,13 @@
+.topbar-content{
+
+  .oceanwp-logout , .oceanwp-logoin{
+    display: inline-block;
+    padding-left: 10px;
+    transition: all 0.5s;
+    &:hover{
+      color:#000 !important;
+    }
+  }
+
+
+}
