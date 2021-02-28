@@ -28,7 +28,7 @@ require_once get_stylesheet_directory() . '/inc/electric-custom-shortcodes.php';
 /**
  * add custom img in page  - login wp
  */
-require_once get_stylesheet_directory() . '/inc/electric-login-img.php';
+require_once get_stylesheet_directory() . '/inc/wp-start-login-page.php';
 
 
 //add_action('ocean_before_outer_wrap' , function (){
